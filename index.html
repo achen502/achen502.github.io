@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Kristine Mo</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	    <style>
 			* {
 				margin: 0; padding: 0;
@@ -31,11 +32,18 @@
 				-moz-box-shadow:    0px 0px 2px 2px #7A4E9B;
 				-webkit-box-shadow: 0px 0px 2px 2px #7A4E9B;
 				box-shadow:         0px 0px 2px 2px #7A4E9B;
+				display: none;
 			}
 		</style>
 	</head>
 
 	<body>
+		<script type="text/javascript">
+			$('iframe').ready(function() {
+				$('iframe').fadeIn(800);
+			})
+		</script>
+
 		<iframe src="//player.vimeo.com/video/22418614?title=0&amp;byline=0&amp;portrait=0&amp;color=704491" width="520" height="292" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</body>
 </html>
